@@ -1,11 +1,11 @@
 ---
-name: assemble-team
+name: assemble
 description: |
-  Orchestrator skill that chains the three assemble-team sub-skills:
-  enrich-plan → verify-mapping → execute-work. Each handoff is validated
-  by checking the next skill's required frontmatter fields; on validation
-  failure or user abort, halt and preserve partial output so the user can
-  resume by invoking the next sub-skill manually.
+  Orchestrator skill of the assemble-team plugin. Chains the three sibling
+  sub-skills: enrich-plan → verify-mapping → execute-work. Each handoff is
+  validated by checking the next skill's required frontmatter fields; on
+  validation failure or user abort, halt and preserve partial output so the
+  user can resume by invoking the next sub-skill manually.
 
   Trigger when the user says:
   - "/assemble-team ..." (slash command, full end-to-end chain)
@@ -19,9 +19,9 @@ description: |
   - Multiple workers would edit the same file (conflict)
 ---
 
-# assemble-team (orchestrator)
+# assemble (orchestrator)
 
-The orchestrator skill chains three independently-invokable sub-skills:
+The orchestrator skill of the assemble-team plugin. Chains three independently-invokable sibling sub-skills:
 
 ```
 raw plan

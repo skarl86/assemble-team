@@ -10,7 +10,7 @@ description: |
   Trigger when the user says:
   - "/enrich-plan ..." (slash command)
   - "enrich this plan" / "이 plan 점수 매겨" / "fill in the gaps in this plan"
-  - The orchestrator (assemble-team skill) invokes this as the first step
+  - The orchestrator (`assemble` skill) invokes this as the first step
 
   Do NOT use this skill to spawn a team or call TeamCreate — that is
   execute-work's job. This skill only produces an enriched plan markdown.

@@ -7,8 +7,8 @@
   "plugins": [
     {
       "name": "assemble-team",
-      "source": "./assemble-team",
-      "description": "5-layer harness (Enrich → Map → Execute) that converts a plan into a safely-spawned agent team, a single subagent, or a printed prompt. Three sub-skills callable independently or chained via /assemble-team."
+      "source": "./",
+      "description": "5-layer harness (Enrich → Map → Execute) that converts a plan into a safely-spawned agent team, a single subagent, or a printed prompt. Four skills callable independently or chained via /assemble-team."
     }
   ]
 }
