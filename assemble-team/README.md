@@ -6,7 +6,7 @@ A Claude Code plugin that converts a user-provided plan into a safely-spawned ex
 
 ```
 /plugin marketplace add skarl86/assemble-team
-/plugin install assemble-team@skarl86-assemble-team
+/plugin install assemble-team@assemble-team-marketplace
 ```
 
 ## What it does
