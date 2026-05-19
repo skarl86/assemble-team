@@ -7,10 +7,7 @@
   "plugins": [
     {
       "name": "assemble-team",
-      "source": {
-        "source": "github",
-        "repo": "skarl86/assemble-team"
-      },
+      "source": "./plugins/assemble-team",
       "description": "5-layer harness (Enrich → Map → Execute) that converts a plan into a safely-spawned agent team, a single subagent, or a printed prompt. Three sub-skills callable independently or chained via /assemble-team."
     }
   ]
