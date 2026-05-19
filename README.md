@@ -6,8 +6,10 @@ Single-plugin marketplace for [`assemble-team`](plugins/assemble-team) — a Cla
 
 ```
 /plugin marketplace add skarl86/assemble-team
-/plugin install assemble-team
+/plugin install assemble-team@skarl86-assemble-team
 ```
+
+The `@skarl86-assemble-team` suffix names the marketplace explicitly so the install is unambiguous. If only one marketplace exposes `assemble-team`, the shorter form `/plugin install assemble-team` also works.
 
 ## Layout
 

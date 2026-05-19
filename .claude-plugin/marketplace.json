@@ -1,8 +1,8 @@
 {
-  "name": "assemble-team",
+  "name": "skarl86-assemble-team",
+  "description": "Single-plugin marketplace for assemble-team: a 5-layer harness that converts a plan into a safely-spawned agent team, a single subagent, or a printed prompt.",
   "owner": {
-    "name": "skarl86",
-    "url": "https://github.com/skarl86"
+    "name": "skarl86"
   },
   "plugins": [
     {
