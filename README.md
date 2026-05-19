@@ -1,6 +1,6 @@
 # assemble-team
 
-A Claude Code plugin that converts a user-provided plan into a safely-spawned execution — an agent team, a single subagent, or a printed prompt. The plugin runs a 5-layer harness (Enrich → Map → Execute) as four independently-callable skills, chained by the `/assemble-team` command.
+A Claude Code plugin that converts a user-provided plan into a safely-spawned execution — an agent team, a single subagent, or a printed prompt. The plugin runs a 5-layer harness (Enrich → Map → Execute) as four independently-callable skills, chained by the `/assemble` command.
 
 ## Install
 
@@ -26,7 +26,7 @@ The `@assemble-team-marketplace` suffix names the marketplace explicitly. If onl
 
 | Command | Skill invoked | Use |
 |---|---|---|
-| `/assemble-team <plan>` | `assemble` | Full chain (orchestrator) |
+| `/assemble <plan>` | `assemble` | Full chain (orchestrator) |
 | `/enrich-plan <plan>` | `enrich-plan` | Step 1 only |
 | `/verify-mapping <enriched plan>` | `verify-mapping` | Step 2 only |
 | `/execute-work <recipe>` | `execute-work` | Step 3 only |

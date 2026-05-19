@@ -8,7 +8,7 @@ description: |
   user can resume by invoking the next sub-skill manually.
 
   Trigger when the user says:
-  - "/assemble-team ..." (slash command, full end-to-end chain)
+  - "/assemble ..." (slash command, full end-to-end chain)
   - "이 plan으로 팀 만들어줘" / "팀 에이전트로 돌려" / "team agents on this"
   - "assemble a team for this plan"
   - pastes a plan body + "process this in parallel" / "이거 병렬로 처리해"
