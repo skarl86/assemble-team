@@ -1,6 +1,6 @@
 {
   "name": "assemble-team",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "5-layer harness (Enrich → Map → Execute) that converts a plan into a safely-spawned agent team, a single subagent, or a printed prompt. Three sub-skills callable independently or chained via /assemble-team. Universal — works with any monorepo.",
   "author": {
     "name": "skarl86",
