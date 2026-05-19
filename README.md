@@ -46,11 +46,11 @@ The `@assemble-team-marketplace` suffix names the marketplace explicitly. If onl
 ├── .claude-plugin/
 │   ├── marketplace.json    # marketplace catalog (source: "./")
 │   └── plugin.json         # plugin manifest
-├── commands/               # 4 slash command shims
-│   ├── assemble-team.md
-│   ├── enrich-plan.md
-│   ├── verify-mapping.md
-│   └── execute-work.md
+├── commands/               # 4 slash command shims (file name == command name)
+│   ├── assemble.md         # → /assemble (orchestrator entry point)
+│   ├── enrich-plan.md      # → /enrich-plan
+│   ├── verify-mapping.md   # → /verify-mapping
+│   └── execute-work.md     # → /execute-work
 ├── skills/                 # 4 skills (1 orchestrator + 3 sub-skills)
 │   ├── assemble/           # orchestrator (chains the 3 sub-skills)
 │   ├── enrich-plan/        # + GRILL_PLAN.md + PLAN_TEMPLATE.md
